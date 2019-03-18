@@ -18,13 +18,13 @@
  //Select mode for washing 
 //Select size of load  
 //Select water temprature for washing 
-//Close the washing machine 
-//Switch on the wasing machine
+//Close the washer 
+//Switch on the washer
 
-//If the washing macine cycle is done
-  //Open washig machine lid 
+//If the washer cycle is done
+  //Open washer lid 
   //Open the Dryer lid
-  //move the clothes from washing machine to dryer
+  //move the clothes from washer to dryer
   //select load size in Dryer
   //Select mode in Dryer 
   //Close the dryer lid
@@ -36,3 +36,5 @@
   //fold and sort small clothes
   //place the clother in closet
   // hang the bigger clothes in hanger
+ 
+ //Repeat for remaning loads.
