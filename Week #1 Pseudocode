@@ -1,0 +1,38 @@
+// *****Doing laundry*****
+//Check for laundry detergent , dryer sheets , bleach 
+   // if not available go to Costco /shop of your choice and purchase 
+//Check if Laundry machine and Dryer is available  and in working condition 
+  //If not go to local laundromat or give for dry cleaning
+
+//Seperate Colors , Whites and Socks  
+
+//Open Laundry machine 
+    //If colors or whites or socks 
+    // based on the size of the load add clothes and leave remaining for next load
+    //add detergent 
+        //If pod, add just 1 pod to any size load.
+        else
+        //If liquid/powdered detergent -  make measurments per the load size and add
+    //IF whites 
+    //add bleach    
+ //Select mode for washing 
+//Select size of load  
+//Select water temprature for washing 
+//Close the washing machine 
+//Switch on the wasing machine
+
+//If the washing macine cycle is done
+  //Open washig machine lid 
+  //Open the Dryer lid
+  //move the clothes from washing machine to dryer
+  //select load size in Dryer
+  //Select mode in Dryer 
+  //Close the dryer lid
+  //Switch on the dryer
+
+//If the dryer cycle is complete
+  //Remove clothes from dryer 
+  //sort by owner 
+  //fold and sort small clothes
+  //place the clother in closet
+  // hang the bigger clothes in hanger
