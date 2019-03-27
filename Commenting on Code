@@ -1,0 +1,39 @@
+public with sharing class CommentingOnCodeExercise {
+    
+    /**
+* Your Assignment is to add comments describing what is being done in the methods below.
+* Call out the concepts you learned in your readings and in class.
+*/
+    
+    public static void cartValues() {
+        // Declare 4 integer values and assing value
+        Integer minimumCartValue = 50;
+        Integer itemA = 10;
+        Integer itemB = 20;
+        Integer itemC = 45;
+        // Declare an Integer value and assing value by adding variables itemA and itemB   
+        // value of cartValue= 30 (10+ 20)
+        Integer cartValue = itemA + itemB;
+        // Declare a Boolean valirable and store comparison result
+        // comparison operator is greater than or equal to 
+        // cartvalue is 30 and minimumCartValue is 50
+        // result stored will be 30>=50 which is False
+        Boolean cartMinimumMet = cartValue >= minimumCartValue;
+        //Print the comparison result in Debuglog
+        //carMinumumMet = False
+        System.debug('Have we reached the minimum: ' + cartMinimumMet);
+        // reassing / recalulate cartValue to new value 
+        // carValue = 75 (30+45)
+        cartValue = cartValue + itemC;
+        // comparison operator is greater than or equal to 
+        // new cartvalue is 75 now and minimumCartValue is 50
+        // result stored will be 75>=50 which is True
+        cartMinimumMet = cartValue >= minimumCartValue;
+        //Print the comparison result in Debuglog
+        //carMinumumMet = True
+        System.debug('How about now? : ' + cartMinimumMet);
+        
+    }
+    
+    
+}
